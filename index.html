@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Add fonts from Adobe fonts or Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <title>Submit Recommendations</title>
+    <!-- Add a favicon -->
+</head>
+  <!-- Implement a skip to main! -->
+  
+<main id="main">
+  <body>
+    <div class="skip"><a href="#main" tabindex="0">Skip to Main Content</a></div>
+      <!-- <form action="" method="post"> Connect to formspree.io-->
+      <form
+          action="https://formspree.io/f/xjkyvebn"
+          method="POST">
+  
+          <fieldset>
+            <legend>Form for Discussion 9</legend>
+
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br><br>
+
+            <div class="radio">
+              <label>Area of Submission:</label><br>
+            <!-- How can the label and button line up and be easily navigatable? -->
+                <input type="radio" id="travel" name="interest" value="travel">
+                <label for="travel">Travel</label><br>
+                
+                <input type="radio" id="recipe" name="interest" value="recipe" tabindex="0">
+                <label for="recipe">Recipe</label><br>
+                
+                <input type="radio" id="pets" name="interest" value="pets">
+                <label for="pets">Pets</label><br><br>
+            </div>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="
